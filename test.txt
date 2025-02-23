@@ -16,9 +16,9 @@ dns:
     - tls://dns.google:853
 proxies:
   # 下面放入你的节点信息（可以多个，认证仔细点！），节点名字支持Ⓜ️ 🎯 🇨🇳 🇭🇰 🇺🇸 🇯🇵 🇰🇷 🇨🇦 🇬🇧 🇩🇪 🇸🇬 🇲🇴 等图标。
-  - {name: 🇯🇵日本B-yu1128.us.kg, server: yu1128.us.kg, port: 443, type: vless, uuid: 3c549152-861f-43eb-980b-a6241e0e6792, tls: true, udp: true, skip-cert-verify: false, servername: yu1128.us.kg, network: ws, ws-opts: {path: /movies, headers: {Host: yu1128.us.kg}}}
+  - {name: 🇯🇵日本B-vps.yu1128.ip-ddns.com, server: vps.yu1128.ip-ddns.com, port: 443, type: vless, uuid: 3c549152-861f-43eb-980b-a6241e0e6792, tls: true, udp: true, skip-cert-verify: false, servername: vps.yu1128.ip-ddns.com, network: ws, ws-opts: {path: /movies, headers: {Host: vps.yu1128.ip-ddns.com}}}
   - {name: 🇯🇵日本A-vps.yu1022.cloudns.ch, server: vps.yu1022.cloudns.ch, port: 443, type: vless, uuid: f021d093-8d25-4682-b288-1c01913a7074, tls: true, udp: true, skip-cert-verify: false, servername: vps.yu1022.cloudns.ch, network: ws, ws-opts: {path: /movies, headers: {Host: vps.yu1022.cloudns.ch}}}
-  - {name: 🇰🇷韩国B-yu0112.us.kg, server: yu0112.us.kg, port: 443, type: vless, uuid: 264dd4ef-66ce-406b-a785-808268e91d77, tls: true, udp: true, skip-cert-verify: false, servername: yu0112.us.kg, network: ws, ws-opts: {path: /movie-theater-guides, headers: {Host: yu0112.us.kg}}}
+  - {name: 🇰🇷韩国B-vps.yu0112.ip-ddns.com, server: vps.yu0112.ip-ddns.com, port: 443, type: vless, uuid: 264dd4ef-66ce-406b-a785-808268e91d77, tls: true, udp: true, skip-cert-verify: false, servername: vps.yu0112.ip-ddns.com, network: ws, ws-opts: {path: /movie-theater-guides, headers: {Host: vps.yu0112.ip-ddns.com}}}
   - {name: 🇰🇷韩国A-vps.yu1010.cloudns.ch, server: vps.yu1010.cloudns.ch, port: 443, type: vless, uuid: a49b8484-db7e-4c3d-a650-83e770077385, tls: true, udp: true, skip-cert-verify: false, servername: vps.yu1010.cloudns.ch, network: ws, ws-opts: {path: /browse, headers: {Host: vps.yu1010.cloudns.ch}}}
 
 proxy-groups:
@@ -28,9 +28,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: ♻️ 自动选择
     type: url-test
     #url: http://www.gstatic.com/generate_204
@@ -40,54 +40,54 @@ proxy-groups:
     proxies:
       #- 🚀 节点选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 YouTube
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 NETFLIX
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
   - name: 🎬 DisneyPlus
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🌏 国外网站
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -95,9 +95,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -105,9 +105,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 爱奇艺
     type: select
     proxies:
@@ -123,9 +123,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,9 +154,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇯🇵日本A-yu1022.us.kg
-      - 🇯🇵日本B-yu1128.us.kg
+      - 🇯🇵日本B-vps.yu1128.ip-ddns.com
       - 🇰🇷韩国A-yu1010.us.kg
-      - 🇰🇷韩国B-yu0112.us.kg
+      - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
