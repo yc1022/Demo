@@ -27,9 +27,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: ♻️ 自动选择
     type: url-test
@@ -39,54 +39,54 @@ proxy-groups:
     tolerance: 100
     proxies:
       #- 🚀 节点选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 YouTube
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 NETFLIX
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
   - name: 🎬 DisneyPlus
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🌏 国外网站
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🍎 苹果服务
     type: select
@@ -94,9 +94,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: Ⓜ️ 微软服务
     type: select
@@ -104,9 +104,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎬 爱奇艺
     type: select
@@ -122,9 +122,9 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
   - name: 🎯 全球直连
     type: select
@@ -153,9 +153,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵日本A-yu1022.us.kg
+      - 🇯🇵日本A-vps.yu1022.cloudns.ch
       - 🇯🇵日本B-vps.yu1128.ip-ddns.com
-      - 🇰🇷韩国A-yu1010.us.kg
+      - 🇰🇷韩国A-vps.yu1010.cloudns.ch
       - 🇰🇷韩国B-vps.yu0112.ip-ddns.com
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
